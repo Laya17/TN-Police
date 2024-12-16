@@ -1,0 +1,21 @@
+.cardContainer{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    height: 160px;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color box-shadow 0.3s ease;
+}
+
+.cardContainer:hover{
+    background-color: gray;
+}
+
+p{
+    margin: 0;
+}

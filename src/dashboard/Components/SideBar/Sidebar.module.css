@@ -1,0 +1,14 @@
+.SideBar{
+    color: white;
+    height: 35px;
+    align-items: left;
+    display: flex;
+    margin: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.SideBar:hover{
+    background-color: #2d2d2f;
+}
